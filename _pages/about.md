@@ -18,9 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a second-year graduate student from [Duke University](https://duke.edu/) major in Electrical and Computer Engineering (ECE).
+I am an incoming PhD student from University of California Santa Cruz Silicon Valley Extension major in Computer Science and Engineering (CSE) following [Prof. Ian Lane](https://nlp.ucsc.edu/people/nlp-faculty/ian-lane/), focusing on multimodal conversational interaction. 
 
-Previously I was an undergraduate student from [Duke Kunshan University](https://dukekunshan.edu.cn/en/about) major in Data Science.
+Previously I was a graduate student from [Duke University](https://duke.edu/) major in Electrical and Computer Engineering (ECE), and an undergraduate student from [Duke Kunshan University](https://dukekunshan.edu.cn/en/about) major in Data Science.
 I joined [SMIIP Lab](https://sites.duke.edu/dkusmiip/) led by my research
 mentor [Prof. Ming Li](https://scholars.duke.edu/person/MingLi) since the summer of my freshman year.
 
