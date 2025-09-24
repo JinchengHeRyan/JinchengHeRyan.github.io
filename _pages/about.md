@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an incoming PhD student from University of California Santa Cruz Silicon Valley Extension major in Computer Science and Engineering (CSE) following [Prof. Ian Lane](https://nlp.ucsc.edu/people/nlp-faculty/ian-lane/), focusing on multimodal conversational interaction. 
+I am currently a PhD student from University of California Santa Cruz Silicon Valley Extension major in Computer Science and Engineering (CSE) following [Prof. Ian Lane](https://ucsc-ai.github.io/member/ian/), focusing on **multimodal conversational interaction, turn-taking models, LLM hallucination detection, speech processing, and natural language processing**. 
 
 Previously I was a graduate student from [Duke University](https://duke.edu/) major in Electrical and Computer Engineering (ECE), and an undergraduate student from [Duke Kunshan University](https://dukekunshan.edu.cn/en/about) major in Data Science.
 I joined [SMIIP Lab](https://sites.duke.edu/dkusmiip/) led by my research
