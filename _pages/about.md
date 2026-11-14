@@ -18,13 +18,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons under the profile picture
 ---
 
-I am currently a PhD student from University of California Santa Cruz Silicon Valley Extension major in Computer Science and Engineering (CSE) following [Prof. Ian Lane](https://ucsc-ai.github.io/member/ian/), focusing on **multimodal conversational interaction, turn-taking models, LLM hallucination detection, speech processing, and natural language processing**.
+I am currently a PhD student from University of California Santa Cruz Silicon Valley Extension major in Computer Science and Engineering (CSE) following [Prof. Ian Lane](https://ucsc-ai.github.io/member/ian/), focusing on **multimodal conversational interaction, full-duplex speech language models, agentic AI, LLM hallucination detection, speech processing, and natural language processing**.
 
 Previously I was a graduate student from [Duke University](https://duke.edu/) major in Electrical and Computer Engineering (ECE), and an undergraduate student from [Duke Kunshan University](https://dukekunshan.edu.cn/en/about) major in Data Science.
 I joined [SMIIP Lab](https://sites.duke.edu/dkusmiip/) led by my research
-mentor [Prof. Ming Li](https://scholars.duke.edu/person/MingLi) since the summer of my freshman year.
-
-I have wide research interests in **speech analysis**, and especially focuses on **Target Speech Separation (TSS)**
-task. It is the task which only extracts target speaker's voice from the mixed utterance.
-
-I also have interests in mathematics, statistics, mathematical modeling.
+mentor [Prof. Ming Li](https://smiip-mli.github.io/people/) since the summer of my freshman year.
