@@ -18,6 +18,7 @@ A personal academic website (https://JinchengHeRyan.github.io) built with Jekyll
 - Never run `git commit` unless the user explicitly asks for it. When asked, keep the commit message short and clear, and don't add a `Co-Authored-By` or any other Anthropic/Claude attribution lines.
 - When a change is large, split it into several commits, one per logical change (for example: content, page layout, styling, docs), rather than one big commit. If a single file holds edits that belong to different commits, stage each part with the commit it belongs to.
 - Committing doesn't mean pushing. A push to `master` deploys the live site, so push only when the user asks.
+- Before every commit, format with Prettier so CI's "Prettier code formatter" check passes: run `npx prettier . --write`, then `npx prettier . --check` (run `npm install` first if `node_modules/` is missing; it installs the Prettier version pinned in `package.json`, which is the one CI uses). Look over any files the write step changed, and commit them along with your changes. Keep the Prettier workflow enabled; don't disable it or turn off its failures.
 - Don't add publication entries to `_bibliography/papers.bib` yourself. If a change needs a new bib entry, tell the user and let them add it.
 
 ## Commands
