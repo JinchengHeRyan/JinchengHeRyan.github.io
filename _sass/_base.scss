@@ -215,6 +215,20 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+// Social icons placed under the profile picture on the about page
+.profile .social {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  .contact-icons {
+    font-size: 1.75rem;
+
+    a {
+      margin: 0 0.3rem;
+    }
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;

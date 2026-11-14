@@ -15,7 +15,7 @@ profile:
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes social icons under the profile picture
 ---
 
 I am currently a PhD student from University of California Santa Cruz Silicon Valley Extension major in Computer Science and Engineering (CSE) following [Prof. Ian Lane](https://ucsc-ai.github.io/member/ian/), focusing on **multimodal conversational interaction, turn-taking models, LLM hallucination detection, speech processing, and natural language processing**. 
