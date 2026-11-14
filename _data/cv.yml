@@ -1,97 +1,115 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Computer Science and Engineering
+      institution: University of California, Santa Cruz (Silicon Valley Campus)
+      department: 'Advised by <a href="https://ucsc-ai.github.io/member/ian/">Prof. Ian Lane</a>'
+      year: Sep 2024 – Present
+      location: Santa Clara, CA
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Research interests: multimodal conversational interaction, full-duplex speech language models (SLMs), LLM hallucination, and speech processing."
+        - "Current research: developing full-duplex SLMs for real-time interaction, and investigating architectures for turn-taking, barge-in interruption, and latency-aware speech generation."
+    - title: M.Eng. in Electrical and Computer Engineering
+      institution: Duke University
+      year: Aug 2022 – May 2024
+      location: Durham, NC
       description:
-        - Description 1.
-        - Description 2.
+        - "Coursework: Computer Systems, Systems Programming, NLP, Robust Server Software, Quantum Computing."
+        - "Honors: Full Scholarship."
+    - title: B.S. in Data Science
+      institution: Duke University & Duke Kunshan University
+      department: Degree conferred by Duke University
+      year: Aug 2018 – May 2022
+      location: Durham & Kunshan
+      description:
+        - "Coursework: Computer Architecture, Computer Vision, Complex Analysis, Topological Data Analysis, Signature Capstone."
+        - "Honors: Dean's List with Distinction (Spring 2020); Outstanding Peer Tutor."
 
-- title: Experience
+- title: Industry Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: Samsung Research America
+      year: Jun 2026 – Sep 2026
+      location: Mountain View, CA
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Proposed LI-RAG (under review at ICLR 2027) to answer complex multi-hop questions accurately at low inference cost. Strong multi-hop systems call an LLM at every retrieval step, which is slow; LI-RAG instead fine-tunes an embedding model (NV-Embed-v2 with LoRA) to imitate how an LLM breaks a question into sub-questions, so it retrieves evidence hop by hop with no LLM calls."
+        - "Outperformed all retrievers of comparable cost on 4 multi-hop QA benchmarks, beating the graph-based HippoRAG 2 by up to 8.6 accuracy points, and matched the LLM-driven IRCoT on most benchmarks while retrieving ~9× faster, using only 4K training questions and no human-labeled evidence."
+        - "Built a trainable graph retriever that re-weights the knowledge graph per query, rather than searching one fixed graph for all queries, as HippoRAG 2 does; implemented differentiable Personalized PageRank to train the edge scorer end to end."
+    - title: Natural Language Processing Intern
+      institution: Five9
+      year: Jun 2025 – Aug 2025
+      location: San Ramon, CA
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Developed two multi-agent architectures: a finite state machine flow and a stack-based coordination system, with hierarchical state management, sub-agent invocation, and dynamic tool generation, enabling seamless orchestration and context consistency across multi-turn dialogues."
+        - "Developed a ReAct (Reasoning + Acting) framework for both single- and multi-agent systems, integrating structured planning, reasoning, and action cycles, dynamic tool selection, and multi-step problem decomposition with iterative reasoning loops."
+        - "Integrated RAG-based knowledge retrieval and API simulation, including context-aware search, dynamic function creation, and knowledge group management, grounding agent reasoning in external data for reliable performance."
+        - "Built an automated customer simulator with dynamic persona generation and adaptive system prompts, producing realistic user behaviors and responses for robust testing of agent performance."
+        - "Developed a modular evaluation platform supporting both real-time and post-conversation analysis, with extensible metrics (response quality, latency, tool usage correctness, etc.) and automated report generation for comprehensive system assessment."
+    - title: Machine Learning Engineer Intern
+      institution: Xiaomi Technology Corporation
+      department: AI Lab
+      year: May 2022 – Aug 2022
+      location: Beijing, China
       description:
+        - "Initiated a groundbreaking project, utilizing multi-channel microphone arrays to successfully achieve multi-directional speech extraction in in-car call scenarios."
+        - "Developed an automated in-vehicle scene data simulation framework, resolved data scarcity issue. This provided one-click data generation, incorporating varied acoustic parameters and creating a comprehensive multi-channel, multi-speaker, multi-scene dataset."
+        - "Determined in-vehicle microphone array schemes. Using neural network-based beamforming estimation to construct a multi-directional speaker extraction system that effectively eliminated noise and interfering voices, as validated by subjective testing."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Research Assistant
+      institution: Duke University
+      department: 'Advised by <a href="https://ece.duke.edu/faculty/jeffrey-krolik">Prof. Jeffrey Krolik</a>'
+      year: May 2023 – Aug 2023
+      location: Durham, NC
+      description:
+        - "Advanced speech intelligibility for the hearing-impaired through proposing and implementing a customized speech enhancement model specifically for hearing-aids. This innovative solution addressed a long-standing limitation of conventional hearing-aids."
+    - title: Research Assistant, Deep Learning-Based Target Speech Separation and Speech Recognition
+      institution: Speech and Multimodal Intelligent Information Processing (SMIIP) Lab, Duke Kunshan University
+      department: 'Advised by <a href="https://scholars.duke.edu/person/MingLi">Prof. Ming Li</a>'
+      year: Jun 2019 – May 2022
+      location: Kunshan, China
+      description:
+        - "Developed an original Automatic Speech Recognition (ASR) system using Python and NumPy, integrating MFCC extraction, dynamic time warping, HMM, and GMM for precise speech template matching."
+        - "Collaborated with Xiaomi researchers to extract and integrate target pitch into the separation model, pioneering two joint training strategies that improved the Target Speaker Separation (TSS) model."
+        - "Achieved a 5.85 dB Signal-to-Distortion Ratio (SDR) improvement (21% relative increase over baseline) on the LibriSpeech dataset by designing an LSTM-based pitch extraction model integrated with MultiBlock RNNoise (MBRNN) via joint training."
+        - "Secured competitive summer research funding in 2021, and contributed to a published paper at Odyssey 2022."
+      linkitems:
+        - linkname: Odyssey 2022 paper
+          link: https://www.isca-archive.org/odyssey_2022/he22_odyssey.html
 
-- title: Honors and Awards
+- title: Projects
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: "DuplexTutorBench: A Benchmark for Full-Duplex Spoken AI Tutors"
+      department: Accepted at IEEE SLT 2026, first author
+      year: Jul 2026
+      description:
+        - "Built the first benchmark for full-duplex spoken AI tutors, in which any real-time speech model (GPT Realtime, Gemini Live, PersonaPlex, MoshiVis) tutors a simulated student on MathVista math problems."
+        - "Designed a two-track evaluation suite that scores speech quality with Audiobox Aesthetics, compares turn-taking timing against human conversation (Map Task corpus) using word timings from Whisper and forced alignment, and rates teaching with an LLM judge on 8 pedagogical dimensions. Benchmarking showed that no current model does both: real-time APIs teach well but take turns unnaturally, while full-duplex models time their turns much more like humans but teach poorly."
+    - title: "TEXT2SPACE: Enhancing LLM Reasoning Capabilities via Structured Output Learning"
+      department: Accepted at COLM 2026
+      year: Dec 2025
+      description:
+        - "Co-developed “TEXT2SPACE”, a novel spatial reasoning benchmark that utilizes ASCII visualizations to decouple representation failures from reasoning errors, identifying a “Read-Write Asymmetry” where LLMs interpret spatial layouts effectively but struggle to reconstruct them."
+        - "Fine-tuned Qwen3-30B models using LoRA and Hugging Face TRL on NVIDIA A40 GPUs, implementing “Learning to Draw” (text-to-ASCII) objectives to enforce the internalization of verifiable spatial “cognitive maps” during training."
+        - "Demonstrated reasoning transfer by validating that auxiliary training on structured spatial construction generalizes to improve downstream text-only reasoning accuracy by ~9% and enhances performance on external benchmarks like STEPGAME."
+      linkitems:
+        - linkname: paper
+          link: https://openreview.net/forum?id=cb6gtKPcR8
+    - title: "Multilingual Hallucination Detection in LLM Outputs (SemEval-2025 Task 3: Mu-SHROOM)"
+      department: SemEval 2025, The 19th International Workshop on Semantic Evaluation (Best Paper Award)
+      year: Jan 2025
+      description:
+        - "Co-developed a system that pinpoints hallucinated spans in LLM answers across 14 languages: it retrieves evidence through web search, uses an LLM to flag unsupported facts, and maps each fact back to its exact character span in the answer."
+        - "Ranked #1 on average among 40+ teams and top-2 in 11 of 14 languages, after tuning prompts automatically with MiPROv2 and combining multiple systems."
+      linkitems:
+        - linkname: paper
+          link: https://aclanthology.org/2025.semeval-1.257/
+    - title: "IEEE ICASSP Signal Processing Cup 2022: Synthetic Speech Attribution"
+      year: Mar 2022
+      description:
+        - "Proposed an end-to-end multi-system fusion solution with ResNet backbone and ranked #6 among 25+ teams."
+        - "Performed Gaussian disturbance with MATLAB and train/dev mismatching strategy to augment data for robustness."

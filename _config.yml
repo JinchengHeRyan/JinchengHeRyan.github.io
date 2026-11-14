@@ -584,9 +584,11 @@ third_party_libraries:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+# Empty so the CV page renders from _data/cv.yml. To build it from the
+# JSON Resume file instead, restore:
+#   - data: resume
+#     json: assets/json/resume.json # it can also be an url
+jekyll_get_json: []
 jsonresume:
   - basics
   - work
