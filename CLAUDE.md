@@ -58,7 +58,7 @@ Changes to `_config.yml` are only picked up after restarting `jekyll serve`. The
 
 ## Deployment
 
-Pushing to `master` runs `.github/workflows/deploy.yml`, which builds the site and force-pushes `_site` to the `gh-pages` branch. GitHub Pages serves `gh-pages`. Never edit `gh-pages` directly: every deploy overwrites it. Edits to the docs files (README/INSTALL/CUSTOMIZE/FAQ/CONTRIBUTING) don't trigger a deploy.
+Pushing to `master` runs `.github/workflows/deploy.yml`, which builds the site and force-pushes `_site` to the `gh-pages` branch. GitHub Pages serves `gh-pages`. Never edit `gh-pages` directly: every deploy overwrites it. `gh-pages` has no `.nojekyll`, so after each deploy GitHub's "pages build and deployment" job runs its own Jekyll (github-pages gem, without this site's plugins) over the built files before publishing. If a Markdown file reaches `_site`, that job renders it as Liquid, and any `{% ... %}` text in it breaks the publish. When that happens, the live site silently stays on the last good version even though "Deploy site" shows green. Every repo-only doc (README, CLAUDE.md, etc.) must therefore be listed under `exclude:` in `_config.yml`, and after a push, check that "pages build and deployment" succeeded as well. Edits to the docs files (README/INSTALL/CUSTOMIZE/FAQ/CONTRIBUTING) don't trigger a deploy.
 
 ## Architecture
 
